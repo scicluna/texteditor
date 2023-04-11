@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'TODOs List'
+        title: 'JATE'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -35,15 +35,15 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-            src: path.resolve('images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
           },
           {
-            src: path.resolve('images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             size: '1024x1024' // you can also use the specifications pattern
           },
           {
-            src: path.resolve('images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             size: '1024x1024',
             purpose: 'maskable'
           }
