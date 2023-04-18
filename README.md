@@ -1,36 +1,33 @@
-GIVEN a text editor web application
-WHEN I open my application in my editor - DONE
-THEN I should see a client server folder structure - DONE
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  
+  # Just Another Text Editor
 
-WHEN I run `npm run start` from the root directory - DONE
-THEN I find that my application should start up the backend and serve the client - DONE
+  ## Description
 
-WHEN I run the text editor application from my terminal - DONE
-THEN I find that my JavaScript files have been bundled using webpack - DONE
+  A progressive web application text editor that you could install and even use offline!
 
-WHEN I run my webpack plugins - DONE
-THEN I find that I have a generated HTML file, service worker, and a manifest file - DONE
+  ## Table of Contents
 
-WHEN I use next-gen JavaScript in my application - DONE
-THEN I find that the text editor still functions in the browser without errors - DONE
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Questions](#questions)
 
-WHEN I open the text editor - DONE
-THEN I find that IndexedDB has immediately created a database storage - DONE
+  ## Installation
 
-WHEN I enter content and subsequently click off of the DOM window - DONE
-THEN I find that the content in the text editor has been saved with IndexedDB - DONE
+  To install this project, use npmi. Then run npm run dev to start everything up. You may have to use npm i in both the client and server side directories as well.
 
-WHEN I reopen the text editor after closing it - DONE
-THEN I find that the content in the text editor has been retrieved from our IndexedDB - DONE
+  ## Usage
 
-WHEN I click on the Install button - DONE
-THEN I download my web application as an icon on my desktop - DONE
+  I recommend that you use the heroku link in order to use this project.
+  ![JATE](./example.png)
 
-WHEN I load my web application - DONE
-THEN I should have a registered service worker using workbox - DONE
+  ## License
 
-WHEN I register a service worker - DONE
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets - DONE
+  This application is covered under the MIT license. Read more at [License: MIT](https://opensource.org/licenses/MIT)
 
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
+  ## Questions
+
+  1. Where can I find your github so that I can view your other projects? https://github.com/scicluna
+
+  2. What email address should I use to contact you regarding further opportunities or questions? sciclunajl@gmail.com
